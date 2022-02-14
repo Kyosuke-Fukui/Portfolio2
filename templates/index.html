@@ -34,12 +34,12 @@
   <a href="{{ context.profile.github }}" target="_blank"><i class="fab fa-github sns-icon"></i></a>
   {% endif %}
 </h2>
-<section id="introduce" class="header fadein">
+<section id="introduce" class="header">
   <div class="container">
     <h3 class="display-4 font-weight-bold text-primary">ABOUT ME</h3>
     <div class="col-md-10 mx-auto py-4">
       <div class="row">
-        <div class="mb-4">
+        <div class="mb-4 profile">
           <img src="{{ context.profile.imgURL }}" height="180" width="180" class="rounded-circle img-center-cover"
             alt="" />
         </div>
@@ -142,7 +142,7 @@
       slidesToShow: 3,
       responsive: [
         {
-          breakpoint: 768,
+          breakpoint: 960,
           settings: {
             slidesToShow: 1,
           }
